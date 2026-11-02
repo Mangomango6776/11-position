@@ -5,16 +5,18 @@
         <meta charset="utf-8">
         <title>11 Positions</title>
         <link rel="stylesheet" href="styles.css">
+        
+        <link rel="stylesheet" href="https://use.typekit.net/qij5dpf.css">
     </head>
 
-    <header>
-            <body>
-        
+    <body>
+        <div class="wrapper">
+            <header>
                 <h1>Positioning: Drop down menu</h1>
                 <p>
-                    <code>position: relative</code> 
+                    <code><a href="" class="code-style">position: relative</a></code> 
                     and
-                    <code>position: absolute</code> 
+                    <code><a href="" class="code-style">position: absolute</a></code> 
                 </p>
 
                 <nav class="site-nav">
@@ -23,23 +25,30 @@
                         <li><a href="" class="site-link">About</a></li>
                         <li class="has-dropdown">
                             <a href="" class="site-link">Products</a>
-                            <ul class="dropdown">
-                                <li><a href="" class="dropdown-link">Widgets</a></li>
-                                <li><a href="" class="dropdown-link">Gadgets</a></li>
-                                <li><a href="" class="dropdown-link">Gizmos</a></li>
-                            </ul>
-                        </li>
+                                <ul class="dropdown">
+                                    <li><a href="" class="dropdown-link">Widgets</a></li>
+                                    <li><a href="" class="dropdown-link">Gadgets</a></li>
+                                    <li><a href="" class="dropdown-link">Gizmos</a></li>
+                                </ul>
+                            </li>
                         <li><a href="" class="site-link">Contact</a></li>
                     </ul>
                 </nav>
-            </body>
-    </header>
+            </header>
 
-        <main>
-            <p>The parent list item needs position: relative so that the child submenu can be positioned with position: absolute relative to it — not relative to the entire page.</p>
+            <main>
+                <p>The parent list item needs <a href="" class="code-style">position: relative</a> so
+                    that the child submenu can be positioned with <a href="" class="code-style">position: absolute</a> relative to
+                    it — not relative to the entire page.</p>
 
-            <p>The submenu (a nested ul inside one of the li elements) is hidden by default with display: none. When the user hovers over the parent list item, the submenu is shown with display: block.</p>
+                <p>The submenu (a nested <a href="" class="code-style">ul</a> inside one of the <a href="" class="code-style">li</a> elements) is 
+                    hidden by default with <a href="" class="code-style">display: none</a>. When the user hovers over the parent list item, the submenu
+                    is shown with <a href="" class="code-style">display: block</a>.</p>
 
-            <p>The key concept: position: absolute places an element relative to its nearest ancestor that has position: relative. Without that ancestor, it positions relative to the page — which is almost never what you want.</p>
-        </main>
+                <p>The key concept: <a href="" class="code-style">position: absolute</a> places an element relative to its nearest
+                    ancestor that has <a href="" class="code-style">position: relative</a>. Without that ancestor, it positions 
+                    relative to the page — which is almost never what you want.</p>
+            </main>
+        </div>
+    </body>
 </html>

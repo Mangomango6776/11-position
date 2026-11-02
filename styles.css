@@ -1,9 +1,13 @@
 html {
-    background-color: bisque;
+    background-color: rgb(196, 216, 255);
+    font-family: "neuzeit-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .site-nav {
-    background-color: burlywood;
+    background-color: rgb(135, 160, 222);
+    padding-left: 30px;
 }
 
 .site-links {
@@ -14,35 +18,48 @@ html {
 
 .site-link {
     display: block;
-    padding: 10px;
+    padding: 15px;
     color: azure;
     text-decoration: none;
 }
 
 .site-link:hover {
-    background-color: cadetblue;
+    background-color: rgb(95, 101, 160);
 }
 
 .dropdown {
     position: absolute;
-    background-color: rgb(69, 112, 213);
+    background-color: rgb(69, 141, 213);
     box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.5);
     list-style-type: none;
-    padding: 0;
+    padding: 8px;
     display: none;
 }
 
 .dropdown-link {
-    color: darkkhaki;
+    color: rgb(237, 217, 93);
     text-decoration: none;
     display: block;
     padding: 8px;
 }
 
 .dropdown-link:hover {
-    background-color: darkolivegreen;
+    background-color: rgb(47, 66, 107);
 }
 
 .has-dropdown:hover .dropdown {
     display: block;
+}
+
+.code-style {
+    text-decoration: none;
+    color: rgb(132, 51, 78);
+    background-color: plum;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: auto;
 }
